@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.hikerwatch.MainActivity">
+
+    <ImageView
+        android:layout_width="385dp"
+        android:layout_height="519dp"
+        android:background="@drawable/background"
+        android:scaleType="fitCenter"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hiker's Watch"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:id="@+id/topic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitude: 12:30"
+        android:layout_below="@+id/topic"
+        android:textColor="#FFF"
+        android:id="@+id/lat_text"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitude: 12:30"
+        android:layout_below="@+id/lat_text"
+        android:id="@+id/long_text"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accuracy: 12:30"
+        android:layout_below="@+id/long_text"
+        android:id="@+id/accuracy"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Altitude: 12:30"
+        android:layout_below="@+id/accuracy"
+        android:id="@+id/altitude"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address:\n 3045 S Parnell Avenue \n Chicago"
+        android:layout_below="@+id/altitude"
+        android:id="@+id/address"
+        android:textColor="#FFF"/>
+
+
+
+</RelativeLayout>
